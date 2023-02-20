@@ -1,0 +1,100 @@
+;ls
+&&ls
+||ls
+|ls
+&ls
+$(ls)
+;id
+&&id
+||id
+|id
+&id
+$(id)
+;whoami
+&&whoami
+||whoami
+|whoami
+&whoami
+$(whoami)
+;echo "test"
+&&echo "test"
+||echo "test"
+|echo "test"
+&echo "test"
+$(echo "test")
+;pwd
+&&pwd
+||pwd
+|pwd
+&pwd
+$(pwd)
+;netstat
+&&netstat
+||netstat
+|netstat
+&netstat
+$(netstat)
+;cat /etc/passwd
+&&cat /etc/passwd
+||cat /etc/passwd
+|cat /etc/passwd
+&cat /etc/passwd
+$(cat /etc/passwd)
+;ps aux
+&&ps aux
+||ps aux
+|ps aux
+&ps aux
+$(ps aux)
+;id;ls
+&&id&&ls
+||id||ls
+|id|ls
+&id&ls
+$(id)$(ls)
+;id;whoami
+&&id&&whoami
+||id||whoami
+|id|whoami
+&id&whoami
+$(id)$(whoami)
+;id;pwd
+&&id&&pwd
+||id||pwd
+|id|pwd
+&id&pwd
+$(id)$(pwd)
+;id;netstat
+&&id&&netstat
+||id||netstat
+|id|netstat
+&id&netstat
+$(id)$(netstat)
+;id;cat /etc/passwd
+&&id&&cat /etc/passwd
+||id||cat /etc/passwd
+|id|cat /etc/passwd
+&id&cat /etc/passwd
+$(id)$(cat /etc/passwd)
+;id;ps aux
+&&id&&ps aux
+||id||ps aux
+|id|ps aux
+&id&ps aux
+$(id)$(ps aux)
+;ls;pwd
+&&ls&&pwd
+||ls||pwd
+|ls|pwd
+&ls&pwd
+$(ls)$(pwd)
+;ls;netstat
+&&ls&&netstat
+||ls||netstat
+|ls|netstat
+&ls&netstat
+$(ls)$(netstat)
+;ls;cat /etc/passwd
+&&ls&&cat /etc/passwd
+||ls||cat /etc/passwd
+|ls|cat /etc/passwd
